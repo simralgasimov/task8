@@ -11,7 +11,6 @@
   background: #fdf0e9;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .container h1 {
@@ -58,21 +57,14 @@ display: flex;
     width: 336px;
 
   padding: 48px 49px 46px;
+  border-radius: 6px 6px 0px 6px;
   border: 1px solid #f3d1bf;
   background: #fff;
   box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
 }
-.column:first-child{
-    border-radius: 6px 6px 0px 6px;
-
-}
 .column:last-child{
     height: 272px;
     padding-top: 105px;
-    margin-top: 64px;
-    background:none;
-    border-radius: 0px 6px 6px 0px;
-
 }
 
 .column .box-1 {
